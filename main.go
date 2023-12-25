@@ -59,7 +59,7 @@ func printMenu() {
 
 	fmt.Println()
 	for key, value := range menuOptions {
-		fmt.Printf("[%s] %s\n", key, strings.ToTitle(strings.ReplaceAll(value, "_", " ")))
+		fmt.Printf("[%s] %s\n", key, strings.ToTitle(value))
 	}
 	fmt.Println()
 }
